@@ -1,0 +1,141 @@
+*{
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  text-decoration: none;
+  box-sizing: border-box;
+  list-style: none;
+}
+/* color variables */
+/* color variables */
+:root{
+ --primary-color: #151618
+ --secondary
+}
+.navbar ul li a{
+  color: purple;
+  padding: 0 1.5rem;
+}
+.navbar ul li a.active{
+  text-decoration: underline;
+}
+
+/* banner */
+/* banner */
+#banner{
+  background-image: url(/assets/img/banner.jpg);
+  height: 80vh;
+  background-size: cover;
+  background-position: center center;
+}
+
+#banner .container{
+ color: var(--white-color);
+ width: 85%;
+ display: flex;
+ height: 100%;
+ margin: 0 auto;
+ align-items: center;
+ justify-content: space-between;
+}
+
+#banner .container .text-cont h2{
+ font-size: 4rem;
+}
+#banner .container .text-cont h3{
+ font-size: 2.6rem;
+}
+#banner .container .text-cont .btn{
+ background: var(--black color);
+ color: var(--white-color);
+ border: none;
+ padding: 1.3rem 3rem;
+ box-shadow: 0 .2rem .4rem var(--white-color);
+ border-radius: .6rem;
+ text-transform: capitalize;
+ font-size: .9rem;
+ letter-spacing: 2px;
+ margin-top: 3rem;
+}
+#banner .container .text-cont .btn:hover{
+ transform: translateY(-20%);
+ transition: all is ease;
+}
+
+#banner .container .img-cont img{
+ width: 100%;
+}
+
+/* intro style */
+/* intro style */
+.intro h3{
+ text-align: center;
+ text-transform: capitalize;
+ position: relative;
+ font-size: 1.8rem;
+}
+.intro h3::before{
+ content: 0;
+ width: 3%;
+ border: 2px solid var(--secondary-color);
+ position: absolute;
+ top: 2.4rem;
+ right: 48.7%;
+}
+
+/* how it works */
+/* how it works */
+
+#hiw{
+ padding: 4rem 0;
+}
+
+#hiw .container{
+ width: 85%;
+ margin: 2rem auto;
+ display: grid;
+ grid-template-columns: repeat(3,1fr);
+ gap: 1rem;
+}
+
+#hiw .container .card{
+ text-align: center;
+}
+/* #hiw .container .card:nth-child(4){
+ align-content: center;
+} */
+
+#hiw .container .card .card-img{
+ background-color: var(light-grey);
+ padding: 4rem;
+ border-radius: 0.3rem;
+}
+
+#hiw.container .card .card-img img{
+ width: 30%;
+}
+
+#hiw .container .card:hover .card-img{
+ background: var(--secondary-color);
+ cursor: pointer;
+}
+
+#hiw .container .card .car-body h5{
+ position: relative;
+}
+
+#hiw .container .card .card-body p{
+ color: var(--light-grey);
+}
+#hiw .container .card:hover p{
+ color: var(--black-color);
+}
+#hiw .container .card:hover h5::before{
+ content: "";
+ width: 10%;
+ border: 2px solid var(--secondary-color);
+ position: absolute;
+ top: 1.4rem;
+ right: 43%;
+}    
