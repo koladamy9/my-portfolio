@@ -114,6 +114,7 @@
 
 #hiw.container .card .card-img img{
  width: 30%;
+ padding: .7rem;
 }
 
 #hiw .container .card:hover .card-img{
